@@ -1,21 +1,24 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 body{
     /* background-color: url(behance.jpeg);
     background-repeat: no-repeat; */
 .main{
-        background-image: url(behance.jpeg);
-        background-size: cover;
-        background: linear-gradient();
-        background-repeat: no-repeat;
-        height: 100vh;
-        width: 100%;
-        margin: 2rem;
+       
+    background-color: rgb(150, 116, 182);
+    margin: 25px 40px;
+    margin-left: 5em;
+    margin-right: 5em;
+    height: 35em;   
         
     }
 
+}
+span{
+    color: yellow;
 }
 .nav{
     display: flex;
@@ -25,3 +28,258 @@ body{
     color: black;
     padding: 2rem;
 }
+#text1{
+    padding: 3%;
+    text-size-adjust: 50rem;
+    font-size: 65px;
+}
+#paragraph{
+    /* margin: 2%; */
+    padding: 2%;
+    font-size: 25px;
+}
+button{
+    margin-left: 5em;
+    padding: 1%;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(150, 150, 79);
+}
+.image{
+    margin-left: 17rem;
+    margin-top: -20%;
+    
+}
+.icons{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 15px 25px;
+    margin-left: 5%;    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(45, 39, 39);
+    list-style: none;
+    height: 35vh;
+    color: aliceblue;
+    /* justify-content: space-between; */
+}
+.column{
+    margin-top: 5%;
+}
+.ps{
+    margin-left: 5%;
+    width: 1%;
+}
+.ps img{
+    margin-left: 5%;
+    width: 58rem;
+}
+.camera{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#camera1{
+    height: 45vh;
+    width: 70%;
+    margin-left: 5rem;
+    
+
+
+}
+#camera2{
+    height: 45vh;
+    width: 79%;
+    margin-left: 5rem;
+
+
+}
+.testimonials{
+    text-align: center;
+    margin-top: 2%;
+    font-size: larger;
+}
+#getperson{
+    margin-left: 70%;
+    margin-top: -10%;
+}
+.text2{
+    margin-top: 5%;
+    margin-left: 15rem;
+}
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    border: 1px solid black;
+  }
+  .product-card img {
+    width: 80px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 4rem;
+    
+  }
+  .product-card h2 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .product-card .productPrice {
+    display: flex;
+    justify-content: space-between;
+  }
+  .product-card .productPrice p {
+    font-size: 14px;
+  }
+  .product-card .productPrice button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .search{
+    margin-top: 2rem;
+    margin-left: 30%;
+  }
+  
+
+
+
+
+  @media (max-width: 768px) {
+    .main {
+      width: 100%;
+      margin: 0;
+    }
+  
+    .nav {
+      flex-direction: column;
+    }
+  
+    .image {
+      margin-left: 0;
+    }
+  
+    .icons {
+      grid-template-columns: repeat(3,1fr);
+      padding: 15px 10px;
+    }
+  
+    .footer {
+      height: 50vh;
+    }
+  
+    .ps img {
+      width: 100%;
+    }
+  
+    .camera {
+      grid-template-columns: 1fr;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  
+    #camera1 {
+      height: 100vh;
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    #camera2 {
+      height: 100vh;
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .testimonials {
+      text-align: left;
+      margin-top: 0;
+    }
+  
+    #getperson {
+      margin-left: 0;
+      margin-top: 0;
+    }
+  
+    .text2 {
+      margin-top: 0;
+      margin-left: 0;
+    }
+  
+    #products {
+      flex-direction: column;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .product-card {
+      margin: 0 5px;
+      border: none;
+    }
+  
+    .product-card img {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+    }
+  
+    .product-card h2 {
+      font-size: 14px;
+      margin-top: 0;
+    }
+  
+    .product-card .productPrice {
+      display: flex;
+      justify-content: flex-start;
+    }
+  
+    .product-card .productPrice p {
+      font-size: 12px;
+    }
+  
+    .product-card .productPrice button {
+      background-color: #fff;
+      color: #000;
+      border: 1px solid #000;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  
+    .search {
+      margin-top: 0;
+      margin-left: 0;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
